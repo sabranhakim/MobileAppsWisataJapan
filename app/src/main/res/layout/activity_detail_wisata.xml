@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailWisata">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Wisata Jepang"
+            android:textSize="30dp"
+            android:fontFamily="@font/bree_serif"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:src="@drawable/akihabara" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="nama"
+            android:textSize="25dp"
+            android:fontFamily="@font/bree_serif"
+            android:layout_below="@+id/gambar"/>
+
+        <TextView
+            android:id="@+id/tempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="tempat"
+            android:textSize="25dp"
+            android:fontFamily="@font/bree_serif"
+            android:layout_below="@+id/nama"/>
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="detail"
+            android:textSize="20dp"
+            android:fontFamily="@font/bree_serif"
+            android:layout_below="@+id/tempat"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
